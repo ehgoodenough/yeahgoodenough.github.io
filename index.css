@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face
+{
+    font-family: goldfish;
+    src: url("assets/fonts/goldfish.eot"),
+         url("assets/fonts/goldfish.woff") format("woff"),
+         url("assets/fonts/goldfish.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: open-sans;
+    src: url("assets/fonts/open-sans.eot"),
+         url("assets/fonts/open-sans.woff") format("woff"),
+         url("assets/fonts/open-sans.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-weight: bold;
+    font-family: open-sans;
+    src: url("assets/fonts/open-sans-bold.eot"),
+         url("assets/fonts/open-sans-bold.woff") format("woff"),
+         url("assets/fonts/open-sans-bold.ttf") format("truetype");
+}
+
+html
+{
+    color: #111;
+    font-size: 18px;
+    font-family: open-sans, sans-serif;
+    
+    height: 100%;
+    background-color: #FFF;
+}
+
+body
+{
+    padding: 2em;
+    max-width: 44em;
+    min-height: 100%;
+    border-left-width: 1em;
+    border-left-color: #888;
+    border-left-style: solid;
+}
+
+header, section
+{
+    margin-bottom: 3em;
+}
+
+h1, h2, h3
+{
+    font-family: goldfish, monospace;
+}
+
+h1
+{
+    font-size: 3em;
+}
+
+h2
+{
+    font-size: 1.5em;
+}
+
+h3
+{
+    font-size: 1.25em;
+}
+
+span
+{
+    white-space: nowrap;
+}
+
+img
+{
+    width: 100%;
+}
+
+.content
+{
+    margin: 1em auto;
+}
+
+ul > li
+{
+    margin-left: 2em;
+}
+
+#map
+{
+    width: 100%;
+    height: 15em;
+}
